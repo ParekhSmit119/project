@@ -1,0 +1,553 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+}
+.nav{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    border: 1px solid;
+}
+.nav a{
+    /* text-decoration: none; */
+    color: white;
+}
+.nav h4{
+    font-size: 11px;
+    margin-top: 7px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+.navbar{
+        width: 100%;
+        height: 60px;
+        /* border: 1px solid; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+ }
+.navbar .navleft{
+    width: 20%;
+    height: inherit;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.navleft img:hover{
+    cursor: pointer;
+}
+.navbar .navcenter{
+    width: 60%;
+    height: inherit;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navcenter a{
+    text-decoration: none;
+    color: black;
+    margin-inline: 35px;
+}
+.navbar .navright{
+    width: 20%;
+    height: inherit;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navright button{
+    width: 90px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.navright button:hover{
+    cursor: pointer;
+}
+.main{
+    width: 100%;
+    height: 500px;
+    background-color:#F3F3F3;
+    display: flex;
+}
+.main .mainleft{
+    width: 50%;
+    height: inherit;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+.mainleft h1{
+    font-size: 90px;
+}
+.mainleft h4{
+    margin-left: -20%;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.main .mainright{
+    width: 50%;
+    height: inherit;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainright .img{
+    width: 40%;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+}
+.img img{
+    margin: 10px;
+    width: 90%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.img button{
+    width: 120px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    border: none;
+    position: absolute;
+    z-index: 2;
+    top: 7%;
+    left: 6%;
+    border-radius: 10px;
+}
+.img #m{
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 85%;
+    left: 2%;
+}
+.img h5{
+ font-weight: 400;
+}
+.main1{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    display: flex;
+    padding-inline: 2%;
+}
+.main1 h1{
+    margin-block: 20px;
+}
+.main1left{
+    width: 50%;
+    height: inherit;
+    /* border: 1px solid; */
+}
+.main1left .left{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid; */
+    margin-top: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.left h4{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.left i{
+    margin-left: 8px;
+}
+.left span{
+    margin-left: 8px;
+}
+.left .img{
+    width: 100%;
+    height: 320px;
+    background-image: url(./Assets/1.jpg);
+    /* border: 1px soli red; */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: relative;
+    transition: 1s;
+}
+.left button{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    position: absolute;
+    border-radius: 9px;
+    border: none;
+    top: 105%;
+    left: 6%;
+    z-index: 2;
+}
+.left button#b{
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 168%;
+    transition: 1s;
+}
+.left button#b:hover{
+    background-color: rgb(31, 30, 30);
+}
+.main1left .left:hover .img{
+    cursor: pointer;
+    /* background-size: 150%; */
+    transform: scale(1.1);
+}
+.main1right{
+    width: 50%;
+    height: inherit;
+    /* border: 1px solid; */
+    /* display: flex; */
+    padding-top: 48px;
+}
+.main1right .right{
+    width: 100%;
+    height: 150px;
+    /* border: 1px solid; */
+    display: flex;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.right h4{
+    margin-left: 25px;
+    font-size: 15px;
+}
+.right i{
+    margin-left: 25px;
+}
+.right span{
+    margin-left: 5px;
+}
+.right .img1{
+    width: 40%;
+    height: 100%;
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-image: url(./Assets/2.jpg);
+    border-radius: 10px;
+    transition: 1s;
+    overflow: hidden;
+}
+.img1 button{
+    background-color: white;
+    color: black;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: 600;
+    border: none;
+    margin: 5px;
+}
+.right .img2{
+    width: 40%;
+    height: 100%;
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-image: url(./Assets/3.jpg);
+    border-radius: 10px;
+    transition: 1s;
+}
+.right2 button{
+    background-color: white;
+    color: black;
+    border: 1px solid gray;
+    margin-left: 25px;
+    margin-top: 10px;
+    width: 120px;
+    height: 30px;
+    transition: 1s;
+    border-radius: 5px;
+}
+.img2 button{
+    background-color: white;
+    color: black;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: 600;
+    border: none;
+    margin: 5px;
+}
+.right .img3{
+    width: 40%;
+    height: 100%;
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-image: url(./Assets/4.jpg);
+    border-radius: 10px;
+    transition: 1s;
+}
+.img3 button{
+    background-color: white;
+    color: black;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    font-weight: 600;
+    border: none;
+    margin: 5px;
+}
+.right:hover .img1{
+    cursor: pointer;
+    background-position: center;
+  background-size: 120%;
+}
+.right:hover .img2{
+    cursor: pointer;
+    background-position: center;
+  background-size: 120%;
+}
+.right:hover .img3{
+    cursor: pointer;
+    background-position: center;
+  background-size: 120%;
+}
+.right button#p:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.main2{
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid; */
+    text-align: center;
+}
+.main2 h1{
+    text-align: center;
+    margin-block: 40px;
+}
+.main2 button{
+    width: 120px;
+    height: 40px;
+    margin-inline: 20px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    transition: 1s;
+}
+.main2 a{
+    text-decoration: none;
+    color: black;
+}
+.main2 button:hover{
+    background-color: black;
+}
+.main2 button:hover a{
+    color: white;
+}
+.main3{
+    width: 100%;
+    height: 1000px;
+    /* border: 1px solid; */
+}
+.main3 .head{
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 5%;
+    margin-block: 2%;
+}
+.head button{
+    transition: 1s;
+}
+.head button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.head button{
+    width: 120px;
+    height: 30px;
+    border: 1px solid gray;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    margin-right: 30px;
+}
+.main3 .hero{
+    width: 30%;
+    height: 500px;
+    /* border: 1px solid; */
+    padding-inline: 2.5%;
+}
+.main3 .hero2{
+    display: flex;
+    /* justify-content: space-evenly; */
+    margin-left: 7%;
+}
+.hero h2{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.hero span{
+    margin-left: 10px;
+}  
+.hero button{
+    width: 120px;
+    height: 30px;
+    border: 1px solid gray;
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: 1s;
+}
+.hero i{
+    margin-left: 10px;
+}  
+.hero .hero1{
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid red; */
+    overflow: hidden;
+}
+.hero1 .img4{
+    width: 100%;
+    height: 100%;
+    background-image: url(./Assets/5.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    transition: 1s;
+}
+.img4 button{
+    background-color: white;
+    color: black;
+    width: 120px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 9px;
+    /* position: fixed; */
+}
+.hero:hover .img4{
+    cursor: pointer;
+    transform: scale(1.1);    
+}
+.hero button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.main4{
+    width: 90%;
+    height: 350px;
+    background-color: black;
+    border-radius: 10px;
+    margin-inline: 5%;
+    margin-top: 80px;
+    display: flex;
+}
+.main4 .main4left{
+    width: 50%;
+    height: inherit;
+    /* border: 1px solid white; */
+    padding-left: 8%;
+    padding-top: 10%;
+}
+.main4left h2{
+    font-size: 35px;
+    color: white;
+}
+.main4left h4{
+    margin-top: 10px;
+    font-weight: 450;
+    color: white;
+}
+.main4left input{
+    margin-top: 50px;
+    width: 80%;
+    height: 40px;
+    padding-left: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+.main4left button{
+    position: absolute;
+    top: 421%;
+    left: 33%;
+    width: 120px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;  
+    border: none;
+    transition: 1s; 
+}
+.main4left button:hover{
+    cursor: pointer;
+    background-color: rgb(49, 48, 48);
+}
+.main4 .main4right{
+    width: 50%;
+    height: inherit;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main4right .img{
+    width: 40%;
+    height: 290px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 50px;
+}
+.img img{
+    margin: 10px;
+    width: 90%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.img button{
+    width: 120px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    border: none;
+    position: absolute;
+    z-index: 2;
+    top: 7%;
+    left: 6%;
+    border-radius: 10px;
+}
+.img #m{
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 85%;
+    left: 2%;
+}
+.img h5{
+ font-weight: 400;
+}
