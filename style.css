@@ -493,8 +493,8 @@
 }
 .main4left button{
     position: absolute;
-    top: 421%;
-    left: 33%;
+    top: 438.5%;
+    left: 33.5%;
     width: 120px;
     height: 35px;
     background-color: black;
@@ -550,4 +550,240 @@
 }
 .img h5{
  font-weight: 400;
+}
+.main5{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid; */
+    margin-top: 80px;
+    display: flex;
+}
+.main5 .main5left{
+    width: 50%;
+    height: inherit;
+    /* border: 1px solid; */
+}
+.main5left img{
+    width: 90%;
+    height: 90%;
+    margin:5%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.main5right{
+    width: 50%;
+    height: inherit;
+    /* border: 1px solid; */
+}
+.main5right h1{
+    font-weight: 500;
+    font-size: 50px;
+    margin: 30px;
+    margin-bottom: 0;
+}
+.main5right .img8{
+    display: flex;
+}
+.main5right img{
+    width: 35%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+.main5right p{
+    margin: 30px;
+    color: gray;
+}
+.main5right button{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 130px;
+    height: 40px;
+    margin-left: 30px;
+    transition: 1s;
+}
+.main5right button:hover{
+    cursor: pointer;
+    background-color: rgb(44, 43, 43);
+}
+.footer{
+    width: 100%;
+    height: 350px;
+    /* border: 1px solid; */
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+.footer h1{
+    font-size: 40px;
+}
+.footer img{
+    margin-top: 20px;
+    width: 20%;
+    height: 210px;
+    border-radius: 10px;
+    margin-inline: 20px;
+}
+.footer1{
+    margin-top: 30px;
+    width: 100%;
+    height: 900px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer1 .fleft{
+    width: 25%;
+    height: inherit;
+    /* border: 1px solid wh1.5te; */
+}
+.fleft .img12{
+    height: 350px;
+    margin-top: 70%;
+    background-color: white;
+    border-radius: 10px;
+    transform: rotate(-20deg);
+}
+.img12 img{
+    margin: 5px;
+    width: 80%;
+    border-radius: 10px;
+}
+.img12 button{
+    width: 120px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    border: none;
+    position: absolute;
+    z-index: 4;
+    left: 1.5%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.img12 #m{
+    background-color: black;
+    color: white;
+    position: absolute;
+    left: 1.5%;
+}
+.img12 h5{
+ font-weight: 400;
+}
+.fleft h5{
+    font-weight: 450;
+    color: white;
+}
+.fleft a{
+    color: white;
+}
+.footer1 .fcenter{
+    width: 40%;
+    height: inherit;
+    /* border: 1px solid white; */
+    text-align: center;
+}
+.fcenter h2{
+    font-size: 120px;
+    color: white;
+}
+.ftop{
+    color: white;
+}
+.ftop h2{
+    font-size: 30px;
+    margin-block: 50px;
+}
+.fmiddel input{
+        margin-top: 10%;
+        width: 350px;
+        height: 50px;
+        padding-left: 20px;
+        border-radius: 10px;
+}
+.fmiddel button{
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    margin-left: -130px;
+    border-radius: 10px;
+    margin-bottom: 90px;
+}
+.fbottom a{
+    text-decoration: none;
+    color: white;
+    margin-inline: 20px;
+}
+.fbottom h5{
+    font-size: 15px;
+    font-weight: 450;
+    margin-top: 30px;
+    color: white;
+}
+.footer1 .fright{
+    width: 25%;
+    height: inherit;
+    /* border: 1px solid white; */
+}
+.fright a{
+    color: white;
+}
+.fright h5{
+    margin-left: 50px;
+    font-weight: 450;
+    color: white;
+}
+.fright .img12{
+    width: 95%;
+    height: 350px;
+    margin-top: 70%;
+    background-color: white;
+    border-radius: 10px;
+    transform: rotate(20deg);
+}
+.img12 img{
+    margin: 10px;
+    width: 90%;
+    border-radius: 10px;
+}
+.img12 button{
+    width: 120px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    border: none;
+    position: absolute;
+    z-index: 4;
+    left: 6.5%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.img12 #m{
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    left: 1.5%;
+    transition: 1s;
+}
+.img12 h5{
+    margin-left: 20px;
+ font-weight: 400;
+}
+.img12 h4{
+    margin-left: 20px;
+}
+.img12:hover{
+    cursor: pointer;
+}  
+.img12 #m:hover{
+    cursor: pointer;
+    background-color: rgb(37, 37, 37);
+}
+.img12 button:hover{
+    cursor: pointer;
 }
